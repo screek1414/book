@@ -11,7 +11,7 @@
       class="page-item"
       :class="{active: value === item}"
     >
-      <a class="page-link" @click="changePage(item)">{{ item }}</a>
+      <a class="page-link" @click="changePage(item)">{{ item }}qwe</a>
     </li>
     <li class="page-item next-page" :class="{disabled: value === totalPages}">
       <a class="page-link" aria-label="Next" @click="nextPage">
